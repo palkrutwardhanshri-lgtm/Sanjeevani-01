@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120" role="img" aria-label="Sanjeevani logo">
+  <g transform="scale(0.8)">
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(0)" fill="#6B7A49" />
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(60)" fill="#6B7A49" />
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(120)" fill="#6B7A49" />
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(180)" fill="#6B7A49" />
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(240)" fill="#6B7A49" />
+    <path d="M0 0 C 16 -9, 20 -34, 0 -50 C -20 -34, -16 -9, 0 0 Z" transform="rotate(300)" fill="#6B7A49" />
+    <circle cx="0" cy="0" r="5" fill="#6B7A49" />
+  </g>
+</svg>

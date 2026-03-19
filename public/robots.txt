@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://samay-ai-verse.github.io/Sanjeevani-Care/sitemap.xml
