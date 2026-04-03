@@ -81,17 +81,17 @@ export default function FooterSection() {
                     <p style={{ ...TEXT, fontSize: "0.62rem", fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", opacity: 0.5, margin: "0 0 12px", lineHeight: 1.6 }}>
                         IF YOU HAVE ANY QUESTIONS<br />FEEL FREE TO CONTACT US:
                     </p>
-                    <a href="mailto:samaypowade1@gmail" style={{
+                    <a href="mailto:samaypowade1@gmail.com" style={{
                         ...TEXT, fontSize: "clamp(0.9rem, 1.8vw, 1.4rem)", fontWeight: 700, textDecoration: "none",
                         display: "block", marginBottom: "28px", transition: "opacity 0.2s",
                     }}
                         onMouseEnter={e => e.currentTarget.style.opacity = 0.65}
                         onMouseLeave={e => e.currentTarget.style.opacity = 1}
                     >
-                        samaypowade1@gmail
+                        samaypowade1@gmail.com
                     </a>
 
-                    <a href="https://www.linkedin.com/in/samay-p-103259269/" target="_blank" style={{ ...TEXT, fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", textDecoration: "none", opacity: 0.55, transition: "opacity 0.2s" }}
+                    <a href="https://www.linkedin.com/in/samay-p-103259269/" target="_blank" rel="noreferrer" style={{ ...TEXT, fontSize: "0.65rem", fontWeight: 700, letterSpacing: "0.18em", textTransform: "uppercase", textDecoration: "none", opacity: 0.55, transition: "opacity 0.2s" }}
                         onMouseEnter={e => e.currentTarget.style.opacity = 1}
                         onMouseLeave={e => e.currentTarget.style.opacity = 0.55}
                     >

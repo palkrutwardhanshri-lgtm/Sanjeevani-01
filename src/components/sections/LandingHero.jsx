@@ -67,23 +67,7 @@ export default function LandingHero({ onMenuClick }) {
                         </h1>
                     </div>
 
-                    {/* Horizontal divider row */}
-                    <div className="absolute top-[38%] md:top-[35%] left-[5%] right-[5%] z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
-                        <p style={{
-                            color: '#f4ede6', fontSize: 'clamp(0.55rem, 1.2vw, 0.7rem)', fontWeight: 600,
-                            letterSpacing: '0.18em', textTransform: 'uppercase',
-                            margin: 0, fontFamily: "'Outfit', sans-serif", opacity: 0.82, flexShrink: 0,
-                        }}>PHARMA, REINVENTED.</p>
 
-                        <div className="hidden md:block flex-1 h-[1px]" style={{ backgroundColor: 'rgba(244,237,230,0.25)', margin: '0 18px', minWidth: '20px' }} />
-
-                        <p className="text-left md:text-right" style={{
-                            color: '#f4ede6', fontSize: 'clamp(0.55rem, 1.2vw, 0.7rem)', fontWeight: 500,
-                            letterSpacing: '0.04em', lineHeight: 1.5,
-                            fontFamily: "'Outfit', sans-serif", opacity: 0.75,
-                            margin: 0, maxWidth: '280px', flexShrink: 0,
-                        }}>SMART PHARMACY —<br className="hidden md:inline" /> REIMAGINED FOR THE FUTURE.</p>
-                    </div>
 
                     {/* Scroll hint */}
                     <div className="absolute bottom-[2%] md:bottom-[5%] left-[5%] z-10 flex items-center gap-[8px]">

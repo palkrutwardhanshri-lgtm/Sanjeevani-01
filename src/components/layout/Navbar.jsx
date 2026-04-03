@@ -37,6 +37,22 @@ export default function Navbar({ onMenuClick, onBookDemo }) {
                 .nav-link:hover::after {
                     width: 100%;
                 }
+                .nav-cta {
+                    border: 1px solid rgba(234, 229, 217, 0.35);
+                    border-radius: 999px;
+                    padding: 0.8rem 1.15rem;
+                    color: var(--nav-color);
+                    font-size: 0.72rem;
+                    font-weight: 700;
+                    letter-spacing: 0.15em;
+                    text-transform: uppercase;
+                    transition: transform 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+                }
+                .nav-cta:hover {
+                    transform: translateY(-1px);
+                    background: rgba(234, 229, 217, 0.08);
+                    border-color: rgba(234, 229, 217, 0.55);
+                }
             `}</style>
             <button
                 className="nav-link"
@@ -52,12 +68,25 @@ export default function Navbar({ onMenuClick, onBookDemo }) {
             <div className="hidden md:flex items-center gap-[22px]">
                 <a href="#footer-section" className="nav-link">CONTACT US</a>
                 <button
+                    type="button"
                     onClick={onBookDemo}
-                    className="nav-link"
-                    style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+                    className="nav-cta"
+                    style={{
+                        background: 'transparent',
+                        cursor: 'pointer',
+                    }}
                 >
-                    BOOK A DEMO
+                    Book Demo
                 </button>
+                <a
+                    href="https://sanjeevani-console.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="nav-link"
+                    style={{ textDecoration: 'none' }}
+                >
+                    GET STARTED
+                </a>
             </div>
         </div>
     );
