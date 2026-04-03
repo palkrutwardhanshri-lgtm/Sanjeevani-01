@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import backgroundImage from "../../assets/image/imagebackgrouns.png";
-import dashboardImage from "../../assets/image/sanjeevani_dashboard.jpeg";
+import dashboardImage from "../../assets/image/image copy 3.png";
 
 const QUICK_STATS = [
     { icon: "ri-whatsapp-line", label: "WhatsApp Orders", value: "142", color: "#25D366" },

@@ -2,9 +2,8 @@
  * Navbar — top bar on the landing hero
  * Props:
  *  onMenuClick — opens the Sidebar
- *  onBookDemo — opens the demo modal
  */
-export default function Navbar({ onMenuClick, onBookDemo }) {
+export default function Navbar({ onMenuClick }) {
     return (
         <div
             className="navbar fixed top-0 left-0 w-full py-4 px-6 md:py-7 md:px-10 flex justify-between items-center"
@@ -67,17 +66,6 @@ export default function Navbar({ onMenuClick, onBookDemo }) {
 
             <div className="hidden md:flex items-center gap-[22px]">
                 <a href="#footer-section" className="nav-link">CONTACT US</a>
-                <button
-                    type="button"
-                    onClick={onBookDemo}
-                    className="nav-cta"
-                    style={{
-                        background: 'transparent',
-                        cursor: 'pointer',
-                    }}
-                >
-                    Book Demo
-                </button>
                 <a
                     href="https://sanjeevani-console.vercel.app/"
                     target="_blank"
