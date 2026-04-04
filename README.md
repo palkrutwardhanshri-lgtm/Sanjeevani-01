@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150x150/10b981/ffffff?text=🌿+Sanjeevani" alt="Sanjeevani Logo" width="120" />
+  <img src="./public/logo.png" alt="Sanjeevani Logo" width="120" />
 
   <h1>🌿 Sanjeevani Care</h1>
   <p><strong>Transforming Healthcare Logistics Through Intelligent Delivery & Omnichannel Patient Engagement.</strong></p>
